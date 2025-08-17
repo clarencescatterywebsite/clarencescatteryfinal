@@ -725,6 +725,15 @@ body.home-page {
   z-index: 1;
 }
 
+
+    /* Hide left and right images on mobile */
+@media (max-width: 768px) {
+  .left-image,
+  .right-images {
+    display: none;
+  }
+}
+
   
   /* Hide images on mobile */
 @media (max-width: 768px) {
